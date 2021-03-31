@@ -1,0 +1,11 @@
+a=int(input())
+x=1
+count=0;
+while(x<2*a):
+    if(x>=a):
+        while(x!=1):
+            x=x/2
+            count+=1
+        print(count)
+        break
+    x=x*2
